@@ -8,9 +8,13 @@ Bem-vindo à LojaLoja, uma loja virtual fictícia desenvolvida para fins de aval
 - Integração de uma API fictícia para fornecer dados de produtos e estoque.
 - Uso de SweetAlert para notificações amigáveis ao usuário.
 
-## Visualize o Protótipo no Figma
+## Visualize o Protótipo no Figma e no BeHance
 
 Se você deseja conferir a aparência da LojaLoja antes de explorá-la, clique [aqui](https://www.figma.com/file/uhO6zSDTQsDINKjKQe9jpY/LojaLoja?type=design&node-id=0%3A1&mode=design&t=KqYuzgS7NrZiwIl5-1) para acessar o protótipo no Figma. Certifique-se de selecionar a opção "Fit-width" para que o site se ajuste perfeitamente à tela.
+
+Segue link para visualização da apresentação do projeto no Behance. Clique [aqui para visualizar.](https://www.behance.net/gallery/182929701/LojaLoja-site-de-ecommerce?)
+
+
 
 ## Instruções de Uso
 
