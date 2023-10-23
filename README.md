@@ -2,6 +2,11 @@
 
 Bem-vindo à LojaLoja, uma loja virtual fictícia desenvolvida para fins de avaliação. Este projeto foi criado utilizando tecnologias web, incluindo HTML, CSS e JavaScript puros, e integra uma API de simulação chamada "FAKE API". Além disso, para aprimorar a experiência do usuário, incorporamos o componente SweetAlert para notificações interativas.
 
+
+## Link para o site hospedado
+
+Clique [aqui para acessar o site hospedado.](https://amandav777.github.io/lojaloja/)
+
 ## Recursos Destacados
 
 - Design responsivo que se adapta a uma variedade de tamanhos de tela.
