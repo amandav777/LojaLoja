@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  />
+
+  <title>lojaloja</title>
+</head>
+
+<body>
+  <div class="navbar">
+
+    <div class="logo"><strong><i><a id="logoTop" href="./index.html">lojaloja.</strong></i></a></div>
+
+
+    <ul class="lista">
+
+      <li id="home">
+        <a id="home" href="./index.html">
+          <img class="icon" src="./imagens/casa.svg" alt="Ícone de casa representando a homepage.">HOME</a>
+      </li>
+
+
+      <li id="categorias"> <a id="home" href="#">
+          <img id="globinho" src="./imagens/globo.svg" alt="Ícone de globo representando as categorias.">
+          <select id="selecionarCategoria">
+            <option value="select">CATEGORIAS</option>
+            <option value="women's clothing">FEMININO</option>
+            <option value="men's clothing">MASCULINO</option>
+            <option value="jewelery">JOALHERIA</option>
+            <option value="electronics">ELETRO</option>
+          </select> </a></li>
+      <li id="sobre"> <a id="home" href="./aboutUs.html">
+          <img class="icon" src="./imagens/heart.svg" alt="Ícone de casa representando a homepage.">SOBRE NÓS</a></li>
+    </ul>
+
+
+
+  </div>
+
+  <main>
+    <div>
+      <img class="banner" src="./imagens/1920.png"
+        alt="Banner principal da loja, indicando cupom AMANDAV de 10% de desconto">
+    </div>
+
+    <div class="tituloBotoes">
+      <div class="titulo">
+        <h1>TODOS OS PRODUTOS</h1>
+      </div>
+
+
+      <div class="botaoClassificacao">
+        <button id="btnMaisCaro"><img src="./imagens/maisCaro.png" alt="Botão que ordena os preços pelo maior custo.">
+        </button>
+        <button id="btnMaisBarato"><img src="./imagens/maisBarato.png" alt="Botão que ordena os preços pelo menor custo.">
+        </button>
+      </div>
+    </div>
+
+
+
+    <div class="product-grid" id="cards">
+      <!-- Div para exibir os produtos -->
+    </div>
+  </main>
+  
+  <footer>
+    <hr>
+    <div><strong><i><a id="logoFooter" href="./index.html">lojaloja.</strong></i></a></div>
+    <h3>uma loja fictícia para pessoas reais.</h3>
+
+
+  </footer>
+
+</body>
+
+
+<script src="js.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</html>

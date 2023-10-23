@@ -1,0 +1,377 @@
+body {
+    background-color: #111;
+    margin: 0%;
+  }
+  
+  .logo {
+    font-family: "Inter", sans-serif;
+    padding: 40px;
+    color: #c0f;
+    font-size: 3rem;
+  }
+  
+  #logoTop {
+    color: #c0f;
+  }
+  
+  .lista {
+    display: inline-flex;
+    gap: 60px;
+    list-style-type: none;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: justify;
+  }
+  
+  @media (max-width: 769px) {
+    .navbar {
+      justify-content: center;
+      flex-direction: column;
+      font-size: 1rem;
+      gap: 1rem;
+      text-align: center;
+    }
+    .lista {
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+      text-align: center;
+      gap: 10px;
+    }
+   
+    #selecionarCategoria {
+      width: 100%;
+      height: 40px;
+      font-size: 16px;
+    }
+    .product-grid {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+    
+    }
+  
+    .product {
+      width: 12rem;
+      align-content: center;
+      text-align: center;
+      border-radius: 10px;
+    }
+  
+    .cards {
+      padding-top: 1rem;
+      /* padding-inline: 1.5rem; */
+      background-color: #fff;
+      width: auto;
+      height: auto;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      align-items: center;
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
+  #selecionarCategoria {
+    border: none;
+    background: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  #productRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #selecionarCategoria:hover {
+    color: #bd005b;
+  }
+  
+  #opcao {
+    border: black;
+    background: #000;
+    color: white;
+    font-weight: bold;
+  }
+  #opcao:hover {
+    background: #bd005b;
+    color: white;
+    font-weight: bold;
+  }
+  .icon {
+    margin-bottom: 5px;
+  }
+  .icon2 {
+    margin-top: 5px;
+  }
+  
+  #home {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  #home:hover {
+    color: #bd005b;
+  }
+  
+  #sobre:hover {
+    color: #bd005b;
+  }
+  
+  .banner {
+    width: 100%;
+  }
+  
+  .titulo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .produtos {
+    margin-top: 2rem;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .cards {
+    padding-top: 1rem;
+    padding-inline: 1.5rem;
+    background-color: #fff;
+    width: 10rem;
+    height: 20rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .buttonCard {
+    display: flex;
+    justify-content: center;
+    padding-inline: 3.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 6rem;
+    height: 3rem;
+    background-color: #fff;
+    margin: auto;
+  }
+  #btnDetalhes {
+    background-color: #d833c5;
+    border: none;
+    width: auto;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: 800;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .product-grid {
+    margin-inline: 10rem;
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    ); /* Permite o ajuste automático de colunas */
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product {
+    width: 100%;
+    max-width: 100px; /* Ajuste o tamanho máximo desejado */
+    height: auto;
+  }
+  .product img {
+    width: 100%;
+    max-width: 100px; /* Ajuste o tamanho máximo desejado */
+    height: auto;
+  }
+  
+  .botaoClassificacao {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    gap: 20px;
+  }
+  
+  #btnMaisCaro {
+    float: right;
+    background-color: #bd005b;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+  }
+  
+  #btnMaisBarato {
+    float: right;
+    margin-inline: 1rem;
+    background-color: #d833c5;
+    border: none;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+  }
+  
+  .tituloBotoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #logoFooter {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #d833c5;
+    margin-left: 50px;
+  }
+  
+  h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  
+  .swal-text {
+    padding: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: justify;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .swal-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #c0f;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .swal-footer {
+    background-color: #d833c5;
+    margin-top: 32px;
+    border-top: 1px solid #e9eef1;
+    overflow: hidden;
+  }
+  
+  footer{
+      margin-top: 5rem;
+  }
+
+
+  h4{
+    text-align: center;
+  }
+
+
+  .tecnologias{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1rem;
+ }
+
+ h4:hover{
+    color: #bd005b;
+ }
+
+.linkedin{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+ h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+#linktree:hover{
+    color: #d833c5;
+}
